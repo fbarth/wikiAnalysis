@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="EntityDescription" id="entityDescription" metadata="uml2-1.0" initialized="true" zoom="0.5" scrolledY="145" tag="10" key="323030363132323120456E746974794465736372697074696F6E">
+  <children xsi:type="editmodel:ClassEditModel" name="ControlDocsLocais" location="230,698" size="177,60" id="entityDescription/ControlDocsLocais" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0 //@children.3/@sourceConnections.2" name="Busca" location="1060,528" size="253,368" id="entityDescription/Busca" runTimeClassModel="extraiConteudo(I),ordemDecr,urls,varios,dispara(),getSnippets(),maxResults,dEFAULT_KEY,search,temp,Busca(Ljava.lang.String;),snippets,ordemCres,getConteudo(),download(),conteudos">
+    <children xsi:type="editmodel:CompartmentEditModel" size="230,180">
+      <children xsi:type="editmodel:AttributeEditModel" name="conteudos" location="-28,24" id="entityDescription/Busca#conteudos"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="dEFAULT_KEY" id="entityDescription/Busca#dEFAULT_KEY"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="maxResults" id="entityDescription/Busca#maxResults"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="ordemCres" id="entityDescription/Busca#ordemCres"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="ordemDecr" id="entityDescription/Busca#ordemDecr"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="search" id="entityDescription/Busca#search"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="snippets" id="entityDescription/Busca#snippets"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="temp" id="entityDescription/Busca#temp"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="urls" id="entityDescription/Busca#urls"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="varios" id="entityDescription/Busca#varios"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,108">
+      <children xsi:type="editmodel:MethodEditModel" name="Busca" id="entityDescription/Busca#Busca(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="dispara" id="entityDescription/Busca#dispara()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="download" id="entityDescription/Busca#download()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="extraiConteudo" id="entityDescription/Busca#extraiConteudo(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getConteudo" id="entityDescription/Busca#getConteudo()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSnippets" id="entityDescription/Busca#getSnippets()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.1 //@children.7/@sourceConnections.3" name="BrazilianStemFilter" location="608,18" size="321,206" id="brazilianStemmer/BrazilianStemFilter" runTimeClassModel="BrazilianStemFilter(Lorg.apache.lucene.analysis.TokenStream;Ljava.util.Set;),stemmer,BrazilianStemFilter(Lorg.apache.lucene.analysis.TokenStream;),token,BrazilianStemFilter(Lorg.apache.lucene.analysis.TokenStream;Ljava.util.Hashtable;),exclusions,next()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="179,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="exclusions" id="brazilianStemmer/BrazilianStemFilter#exclusions"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="stemmer" id="brazilianStemmer/BrazilianStemFilter#stemmer"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="token" id="brazilianStemmer/BrazilianStemFilter#token"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="135,72">
+      <children xsi:type="editmodel:MethodEditModel" name="BrazilianStemFilter" id="brazilianStemmer/BrazilianStemFilter#BrazilianStemFilter(Lorg.apache.lucene.analysis.TokenStream;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="BrazilianStemFilter" id="brazilianStemmer/BrazilianStemFilter#BrazilianStemFilter(Lorg.apache.lucene.analysis.TokenStream;Ljava.util.Set;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="BrazilianStemFilter" id="brazilianStemmer/BrazilianStemFilter#BrazilianStemFilter(Lorg.apache.lucene.analysis.TokenStream;Ljava.util.Hashtable;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="next" id="brazilianStemmer/BrazilianStemFilter#next()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.0" name="Control" location="818,400" size="95,116" id="entityDescription/Control" runTimeClassModel="main([Ljava.lang.String;),Control()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="71,36">
+      <children xsi:type="editmodel:MethodEditModel" name="Control" id="entityDescription/Control#Control()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="entityDescription/Control#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="document/PalavrasEliminadas->java.util/Iterator" source="//@children.3" target="//@children.1" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="51,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="95,106" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="document/PalavrasEliminadas->java.util/Iterator" source="//@children.3" target="//@children.7" targetEnd="//@children.3/@sourceConnections.1/@children.2" label="//@children.3/@sourceConnections.1/@children.0" sourceEnd="//@children.3/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="51,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,58" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="247,139"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="document/PalavrasEliminadas->java.util/Iterator" source="//@children.3" target="//@children.1" targetEnd="//@children.3/@sourceConnections.2/@children.2" label="//@children.3/@sourceConnections.2/@children.0" sourceEnd="//@children.3/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="51,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="37,116" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="94,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="document/PalavrasEliminadas->java.util/Iterator" source="//@children.3" target="//@children.7" targetEnd="//@children.3/@sourceConnections.3/@children.2" label="//@children.3/@sourceConnections.3/@children.0" sourceEnd="//@children.3/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="51,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="247,276"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="document/PalavrasEliminadas->java.util/Iterator" source="//@children.3" target="//@children.5" targetEnd="//@children.3/@sourceConnections.4/@children.2" label="//@children.3/@sourceConnections.4/@children.0" sourceEnd="//@children.3/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="51,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="95,47" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,80"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="document/PalavrasEliminadas->java.util/Iterator" source="//@children.3" target="//@children.5" targetEnd="//@children.3/@sourceConnections.5/@children.2" label="//@children.3/@sourceConnections.5/@children.0" sourceEnd="//@children.3/@sourceConnections.5/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="51,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="95,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,170"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.0" name="PalavrasEliminadas" location="50,410" size="269,170" id="document/PalavrasEliminadas" runTimeClassModel="getInstance(),getPalavrasEliminadas(),PalavrasEliminadas(),arquivo,instance">
+    <children xsi:type="editmodel:CompartmentEditModel" size="185,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="arquivo" id="document/PalavrasEliminadas#arquivo"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="instance" id="document/PalavrasEliminadas#instance"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="159,54">
+      <children xsi:type="editmodel:MethodEditModel" name="PalavrasEliminadas" id="document/PalavrasEliminadas#PalavrasEliminadas()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="document/PalavrasEliminadas#getInstance()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPalavrasEliminadas" id="document/PalavrasEliminadas#getPalavrasEliminadas()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.4 //@children.3/@sourceConnections.5" name="Absoluta" location="1020,89" size="191,170" id="frequency/Absoluta" runTimeClassModel="Absoluta(Ljava.util.ArrayList;),tfIJ(Ljava.lang.String;),fIJ(Ljava.lang.String;),dj,maxFzj()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="87,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="dj" id="frequency/Absoluta#dj"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="79,72">
+      <children xsi:type="editmodel:MethodEditModel" name="Absoluta" id="frequency/Absoluta#Absoluta(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="fIJ" id="frequency/Absoluta#fIJ(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="maxFzj" id="frequency/Absoluta#maxFzj()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="tfIJ" id="frequency/Absoluta#tfIJ(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.2 //@children.7/@sourceConnections.4" name="AnalisadorTexto" location="75,80" size="242,152" id="document/AnalisadorTexto" runTimeClassModel="getTokenStream(),getTextoAnalisado(),AnalisadorTexto(Ljava.lang.String;),tokenProibido(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="132,72">
+      <children xsi:type="editmodel:MethodEditModel" name="AnalisadorTexto" id="document/AnalisadorTexto#AnalisadorTexto(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTextoAnalisado" id="document/AnalisadorTexto#getTextoAnalisado()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTokenStream" id="document/AnalisadorTexto#getTokenStream()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="tokenProibido" id="document/AnalisadorTexto#tokenProibido(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="document/AnalisadorTexto->document/PalavrasEliminadas" source="//@children.6" target="//@children.4" targetEnd="//@children.6/@sourceConnections.0/@children.2" label="//@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="54,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="120,152" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="145,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.1 //@children.3/@sourceConnections.3" name="Entity" location="428,319" size="247,296" id="entityDescription/Entity" runTimeClassModel="set_description([Ljava.lang.String;),get_description(),Entity(Ljava.lang.String;),get_name(),get_snippets(),set_snippets([Ljava.lang.String;),get_descriptionToString(),get_conteudos(),set_conteudos([Ljava.lang.String;),_name,get_conteudosToStringToOneArray(),set_name(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="98,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="_name" id="entityDescription/Entity#_name"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="224,198">
+      <children xsi:type="editmodel:MethodEditModel" name="Entity" id="entityDescription/Entity#Entity(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="get_conteudos" id="entityDescription/Entity#get_conteudos()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="get_conteudosToStringToOneArray" id="entityDescription/Entity#get_conteudosToStringToOneArray()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="get_description" id="entityDescription/Entity#get_description()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="get_descriptionToString" id="entityDescription/Entity#get_descriptionToString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="get_name" id="entityDescription/Entity#get_name()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="get_snippets" id="entityDescription/Entity#get_snippets()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="set_conteudos" id="entityDescription/Entity#set_conteudos([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="set_snippets" id="entityDescription/Entity#set_snippets([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="set_name" id="entityDescription/Entity#set_name(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="set_description" id="entityDescription/Entity#set_description([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="entityDescription/Entity@_entity+entityDescription/Control@" source="//@children.7" target="//@children.3" targetEnd="//@children.7/@sourceConnections.0/@children.2" label="//@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="_entity" location="237,286" id="entityDescription/Entity@_entity+entityDescription/Control@|entityDescription/Entity#_entity" attachSource="true" multiplicityLabel="//@children.7/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.7/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - _entity" location="610,621" size="47,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="671,621" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,1" id="entityDescription/Entity@_entity+entityDescription/Control@|entityDescription/Control#"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="document/PalavrasEliminadas->java.util/Iterator" source="//@children.7" target="//@children.2" targetEnd="//@children.7/@sourceConnections.1/@children.2" label="//@children.7/@sourceConnections.1/@children.0" sourceEnd="//@children.7/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="51,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="213,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="33,206"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="document/PalavrasEliminadas->java.util/Iterator" source="//@children.7" target="//@children.6" targetEnd="//@children.7/@sourceConnections.2/@children.2" label="//@children.7/@sourceConnections.2/@children.0" sourceEnd="//@children.7/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="51,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="232,152"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="document/PalavrasEliminadas->java.util/Iterator" source="//@children.7" target="//@children.2" targetEnd="//@children.7/@sourceConnections.3/@children.2" label="//@children.7/@sourceConnections.3/@children.0" sourceEnd="//@children.7/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="51,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="193,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="32,206"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="document/PalavrasEliminadas->java.util/Iterator" source="//@children.7" target="//@children.6" targetEnd="//@children.7/@sourceConnections.4/@children.2" label="//@children.7/@sourceConnections.4/@children.0" sourceEnd="//@children.7/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="51,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,77" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="241,74"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=7" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showMethods="true" showAttributes="true" showLiterlas="true"/>
+</editmodel:ClassDiagramEditModel>

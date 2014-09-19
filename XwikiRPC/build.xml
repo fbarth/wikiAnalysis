@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="XwikiMining" basedir="." default="dist">
+	<description>
+		Script responsável pela distribuição do projeto.
+	</description>
+
+	<property name="src" value="src"/>
+	<property name="lib.dir" value="lib"/>
+	<property name="build.dir" value="bin"/>
+	<property name="dist.dir" value="dist"/>
+	<property name="data.dir" value="data"/>
+<!--	<property name="pages.dir" value="data/pages"/>
+	<property name="pages_and_users.dir" value="data/pages_and_users"/>
+	<property name="timeline.dir" value="data/timeline"/>	
+	<property name="users.dir" value="data/users"/>	
+-->		
+	<path id="project.classpath">
+		<fileset dir="${lib.dir}">
+			<include name="**/*.jar" />
+		</fileset>
+		<fileset dir="${build.dir}">
+		</fileset>
+	</path>
+
+	<target name="clean">
+		<echo>Limpando o diretório para distribuição do software</echo>
+		<delete dir="${dist.dir}"/>
+	</target>
+
+	<target name="compile">
+		<echo>Compilando as classes do projeto</echo>
+		<javac destdir="${build.dir}" 
+			   classpathref="project.classpath">
+			<src>
+				<dirset dir="${src}"/>
+			</src>
+		</javac>
+	</target>
+
+	<target name="dist" depends="compile, clean">
+		<echo>Criando a distribuição do projeto</echo>
+		<mkdir dir="${dist.dir}"/>
+<!--		<mkdir dir="${pages.dir}"/>
+		<mkdir dir="${pages_and_users.dir}"/>
+		<mkdir dir="${timeline.dir}"/>
+		<mkdir dir="${users.dir}"/>
+-->
+		<copy todir="${dist.dir}/${data.dir}">
+			<fileset file="${data.dir}/*"/>
+		</copy>
+		<copy todir="${dist.dir}/${lib.dir}">
+			<fileset file="${lib.dir}/*.jar" />
+		</copy>
+		<jar destfile="${dist.dir}/xwikiMining.jar">
+			<fileset dir="${build.dir}"/>
+			<manifest>
+				<attribute name="Main-Class" value="xwiki.ui.TextMode"/>
+				<attribute name="Class-Path" value="lib/xmlrpc-1.2.jar lib/xwiki.jar lib/weka.jar lib/yale.jar lib/jung-1.7.6.jar lib/clustering-plugin-2.2.jar lib/wvtool-plugin-2.2.jar lib/wvtool.jar lib/colt.jar lib/commons-collections-3.2.jar lib/commons-collections-testframework-3.2.jar lib/concurrent.jar lib/resolver.jar lib/xercesImpl.jar lib/xercesSamples.jar lib/xml-apis.jar lib/yale-3.3.jar lib/yale-clustering-3.3.jar lib/yale-wvtool-3.3.jar lib/lucene-core-1.9.1.jar"/>
+			</manifest>
+		</jar>
+	</target>
+</project>

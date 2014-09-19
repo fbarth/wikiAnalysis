@@ -1,0 +1,19 @@
+<operator name="Root" class="Experiment">
+  <operator name="WVTool" class="WVTool">
+    <parameter key="default_content_language"	value="portuguese"/>
+    <list key="texts">
+      <parameter key="pages"	value="/home/fabricio/eclipse/workspace/XwikiRPC/data/pages"/>
+    </list>
+  </operator>
+  <operator name="UPGMAClustering" class="UPGMAClustering" activated="no">
+    <parameter key="keep_example_set"	value="true"/>
+  </operator>
+  <operator name="KMeans" class="KMeans">
+    <parameter key="k"	value="6"/>
+    <parameter key="keep_example_set"	value="true"/>
+  </operator>
+  <operator name="ItemDistributionEvaluator" class="ItemDistributionEvaluator">
+    <parameter key="measure"	value="GiniCoefficient"/>
+  </operator>
+</operator>
+

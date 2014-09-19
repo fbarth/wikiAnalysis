@@ -1,0 +1,121 @@
+@relation usuariosDocumentos
+@attribute Main.WebHome numeric
+@attribute Main.Contexto numeric
+@attribute Main.DoutoradoFabricio numeric
+@attribute Main.Usuario numeric
+@attribute Main.Topicos numeric
+@attribute Main.Recomendacao numeric
+@attribute Main.Informacao numeric
+@attribute Main.CSCW numeric
+@attribute Main.Ubiquitous numeric
+@attribute Main.Collaborative numeric
+@attribute Main.ConceitosInformacao numeric
+@attribute Main.Folksonomy numeric
+@attribute Main.ProjectAI numeric
+@attribute Main.userGroupCollaborative numeric
+@attribute Main.tvDigital numeric
+@attribute Main.LaTeX numeric
+@attribute Main.implementacoes numeric
+@attribute Main.clusteringNews numeric
+@attribute Main.AM numeric
+@attribute Main.ferramentas numeric
+@attribute Main.SearchDigital numeric
+@attribute Main.EnsinoProgramacao numeric
+@attribute Main.TCCTancredo numeric
+@attribute Main.Eventos numeric
+@attribute Main.Publicacoes numeric
+@attribute Main.bi numeric
+@attribute Main.WebHome numeric
+@attribute Main.Regras numeric
+@attribute Main.ComoUsar numeric
+@attribute Main.IP1 numeric
+@attribute Main.ES numeric
+@attribute Main.BetaES numeric
+@attribute Main.AlfaES numeric
+@attribute Main.DynaTable numeric
+@attribute Main.ProjetoFaroFino numeric
+@attribute Main.Reviews numeric
+@attribute Main.IP2 numeric
+@attribute Main.LP1 numeric
+@attribute Main.CCpl numeric
+@attribute Main.IA numeric
+@attribute Main.LTP2 numeric
+@attribute Main.IP1S2 numeric
+@attribute Main.RoteiroInstalacao numeric
+@attribute Main.AlfaIP2 numeric
+@attribute Main.BetaIP2 numeric
+@attribute Main.DeltaIP2 numeric
+@attribute Main.Misc numeric
+@attribute Main.SiemensAxalto numeric
+@attribute Main.Desenvolvimento numeric
+@attribute Main.Texto numeric
+@attribute Main.RevisaoCodigo numeric
+@attribute Main.LTP1 numeric
+@attribute Main.LP3 numeric
+@attribute Main.NotasAulaES06 numeric
+@attribute Main.ES06 numeric
+@attribute Main.Anteriores numeric
+@attribute Main.IAS1 numeric
+@attribute Main.AlfaES06 numeric
+@attribute Main.BetaES06 numeric
+@attribute Main.GamaES06 numeric
+@attribute Main.SemanticSearch numeric
+@attribute Main.WebHome numeric
+@attribute Main.genericoCC numeric
+@attribute Main.IA numeric
+@attribute Main.CComp numeric
+@attribute Main.lingTecProgII numeric
+@attribute Main.questoesTeoricas numeric
+@attribute Main.projetos numeric
+@attribute Main.triagem numeric
+@attribute Main.Prontuário Eletrônico Oftalmológico com Reconhecimento de Fala numeric
+@attribute Main.mapaMental numeric
+@attribute Main.projTCC numeric
+@attribute Main.apresTCC numeric
+@attribute Main.agente numeric
+@attribute Main.Mapa Mental numeric
+@attribute Main.projetotcc numeric
+@attribute Main.exercicioPrograma numeric
+@attribute Main.proj numeric
+@attribute Main.xmlRpc numeric
+@attribute Main.Redes Semânticas numeric
+@attribute Main.Programação em lógica numeric
+@attribute Main.Quadros (frames) numeric
+@attribute Main.Regras de Produção numeric
+@attribute Main.Definição de formalismos orientados a classes e relações numeric
+@attribute Main.Definição de formalismos orientados a predicados numeric
+@attribute Main.engSoft numeric
+@attribute Main.aprendizadoMaquina numeric
+@attribute Usuario {XWiki.mcouto,XWiki.JCMedau,XWiki.FabricioBarth,xwiki:XWiki.LudovicDubost,XWiki.brunnot,XWiki.jandrade,XWiki.BetaES,XWiki.AlfaES,xwiki:XWiki.fbarth,XWiki.GamaES,XWiki.BetaIP2,XWiki.AlfaIP2,XWiki.gilberto,XWiki.psilvestrini,XWiki.caio,XWiki.LTP2S2,xwiki:XWiki.CristinaBelderrain,XWiki.NewtestUser,XWiki.AdmintestUser,XWiki.EdsonGomi,XWiki.XWikiGuest,XWiki.AdrianoMartins,XWiki.mmathias,XWiki.Admin,XWiki.DeltaIP2,XWiki.re_martella,XWiki.fbarth,XWiki.CCompS2,XWiki.JoaoSilva}
+
+@data
+
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,XWiki.mcouto
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,XWiki.JCMedau
+0,1,1,0,1,0,0,1,0,1,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,1,1,0,0,0,0,0,1,0,0,1,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,XWiki.FabricioBarth
+1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,xwiki:XWiki.LudovicDubost
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,XWiki.brunnot
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,XWiki.jandrade
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,XWiki.BetaES
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,XWiki.AlfaES
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,1,1,xwiki:XWiki.fbarth
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,XWiki.GamaES
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,XWiki.BetaIP2
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,XWiki.AlfaIP2
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,XWiki.gilberto
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,XWiki.psilvestrini
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,XWiki.caio
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,XWiki.LTP2S2
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,xwiki:XWiki.CristinaBelderrain
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,XWiki.NewtestUser
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,XWiki.AdmintestUser
+0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,XWiki.EdsonGomi
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,XWiki.XWikiGuest
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,XWiki.AdrianoMartins
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,XWiki.mmathias
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,XWiki.Admin
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,XWiki.DeltaIP2
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,XWiki.re_martella
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,XWiki.fbarth
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,XWiki.CCompS2
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,XWiki.JoaoSilva

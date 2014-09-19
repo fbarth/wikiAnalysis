@@ -1,0 +1,2 @@
+VM arguments:
+-Dyale.operators.additional=data/META-INF/operators.xml -Dyale.home=/opt/yale3.2/ -classpath /home/fbarth/eclipse/workspace/busca_inteligente/

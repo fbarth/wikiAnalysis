@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/wikiAnalysis/!svn/ver/15/XwikiRPC/src/xwiki/model
+END
+URI.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/wikiAnalysis/!svn/ver/2/XwikiRPC/src/xwiki/model/URI.java
+END
+ExternalLink.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/wikiAnalysis/!svn/ver/2/XwikiRPC/src/xwiki/model/ExternalLink.java
+END
+Version.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/wikiAnalysis/!svn/ver/2/XwikiRPC/src/xwiki/model/Version.java
+END
+Attachment.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/wikiAnalysis/!svn/ver/2/XwikiRPC/src/xwiki/model/Attachment.java
+END
+PageUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/wikiAnalysis/!svn/ver/15/XwikiRPC/src/xwiki/model/PageUser.java
+END
+Space.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/wikiAnalysis/!svn/ver/2/XwikiRPC/src/xwiki/model/Space.java
+END
+Page.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/wikiAnalysis/!svn/ver/11/XwikiRPC/src/xwiki/model/Page.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/wikiAnalysis/!svn/ver/11/XwikiRPC/src/xwiki/model/User.java
+END

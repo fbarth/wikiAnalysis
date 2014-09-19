@@ -1,0 +1,12 @@
+<operator name="Root" class="Experiment">
+  <operator name="WVTool" class="WVTool">
+    <parameter key="default_content_language"	value="portuguese"/>
+    <parameter key="output_word_list"	value="/home/fbarth/eclipse/workspace/XWikiRPC/data/vetores.txt"/>
+    <parameter key="stemmer"	value="edu.udo.cs.wvtool.generic.stemmer.SnowballStemmerWrapper"/>
+    <list key="texts">
+      <parameter key="textos"	value="/home/fbarth/eclipse/workspace/XWikiRPC/data/pages"/>
+    </list>
+    <parameter key="vectorcreation"	value="edu.udo.cs.wvtool.generic.vectorcreation.TermFrequency"/>
+  </operator>
+</operator>
+

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/wikiAnalysis/!svn/ver/2/XwikiRPC/dist/data
+END
+dados.data
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/wikiAnalysis/!svn/ver/2/XwikiRPC/dist/data/dados.data
+END
+vetores.txt
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/wikiAnalysis/!svn/ver/2/XwikiRPC/dist/data/vetores.txt
+END
+badwords_pt.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/wikiAnalysis/!svn/ver/2/XwikiRPC/dist/data/badwords_pt.txt
+END
+geral.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/wikiAnalysis/!svn/ver/2/XwikiRPC/dist/data/geral.txt
+END
+usuariosDocumentos.arff
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/wikiAnalysis/!svn/ver/2/XwikiRPC/dist/data/usuariosDocumentos.arff
+END
+usuariosDocumentos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/wikiAnalysis/!svn/ver/2/XwikiRPC/dist/data/usuariosDocumentos.txt
+END
+english.stop
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/wikiAnalysis/!svn/ver/2/XwikiRPC/dist/data/english.stop
+END

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="973,1190" id="xwiki.model" metadata="uml2-1.0" initialized="true" scrolledX="-38" scrolledY="93" tag="1000" key="3230303631303036205877696B695250432F666162726963696F">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.4 //@children.5/@sourceConnections.5 //@children.1/@sourceConnections.1" name="Version" location="360,710" size="132,314" id="xwiki.model/Version" runTimeClassModel="Version(Ljava.util.Hashtable;),getId(),id,setVersion(Ljava.lang.Integer;),getModified(),getModifier(),setModified(Ljava.util.Date;),print(),modifier,setModifier(Ljava.lang.String;),version,setId(Ljava.lang.String;),modified,getVersion()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="id" id="xwiki.model/Version#id"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="modified" id="xwiki.model/Version#modified"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="modifier" id="xwiki.model/Version#modifier"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="version" id="xwiki.model/Version#version"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,162">
+      <children xsi:type="editmodel:MethodEditModel" name="Version" id="xwiki.model/Version#Version(Ljava.util.Hashtable;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getId" id="xwiki.model/Version#getId()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getModified" id="xwiki.model/Version#getModified()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getModifier" id="xwiki.model/Version#getModifier()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getVersion" id="xwiki.model/Version#getVersion()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setId" id="xwiki.model/Version#setId(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setModified" id="xwiki.model/Version#setModified(Ljava.util.Date;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setModifier" id="xwiki.model/Version#setModifier(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setVersion" id="xwiki.model/Version#setVersion(Ljava.lang.Integer;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0" name="Space" location="690,-170" size="147,404" id="xwiki.model/Space" runTimeClassModel="addAllUsers(Lxwiki.model.Page;Ljava.util.ArrayList;),getName(),getUrl(),Space(Ljava.util.Hashtable;),getHomepage(),getKey(),setPages(Ljava.util.ArrayList;),url,getPages(),getDescription(),setName(Ljava.lang.String;),getAllUsers(Lxwiki.model.Page;),getAllUsers(),setDescription(Ljava.lang.String;),description,homepage,setHomepage(Ljava.lang.String;),setKey(Ljava.lang.String;),key,setUrl(Ljava.lang.String;),name">
+    <children xsi:type="editmodel:CompartmentEditModel" size="124,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="key" id="xwiki.model/Space#key"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="description" id="xwiki.model/Space#description"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="homepage" id="xwiki.model/Space#homepage"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="url" id="xwiki.model/Space#url"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="xwiki.model/Space#name"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="113,234">
+      <children xsi:type="editmodel:MethodEditModel" name="setHomepage" id="xwiki.model/Space#setHomepage(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setKey" id="xwiki.model/Space#setKey(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getHomepage" id="xwiki.model/Space#getHomepage()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPages" id="xwiki.model/Space#setPages(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUrl" id="xwiki.model/Space#getUrl()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getKey" id="xwiki.model/Space#getKey()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setUrl" id="xwiki.model/Space#setUrl(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDescription" id="xwiki.model/Space#getDescription()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setName" id="xwiki.model/Space#setName(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPages" id="xwiki.model/Space#getPages()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addAllUsers" id="xwiki.model/Space#addAllUsers(Lxwiki.model.Page;Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="xwiki.model/Space#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDescription" id="xwiki.model/Space#setDescription(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="xwiki.model/Space->xwiki.model/Page" source="//@children.1" target="//@children.5" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="51,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,394" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="200,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="xwiki.model/Space->xwiki.model/Version" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.1/@children.2" label="//@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="51,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,394" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="122,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.1" name="ExternalLink" location="540,350" size="151,152" id="xwiki.model/ExternalLink" runTimeClassModel="setContentType(Ljava.lang.String;),getContentType(),contentType,ExternalLink(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="128,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="contentType" id="xwiki.model/ExternalLink#contentType"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="118,54">
+      <children xsi:type="editmodel:MethodEditModel" name="ExternalLink" id="xwiki.model/ExternalLink#ExternalLink(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getContentType" id="xwiki.model/ExternalLink#getContentType()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setContentType" id="xwiki.model/ExternalLink#setContentType(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="xwiki.model/URI&lt;-xwiki.model/ExternalLink" source="//@children.2" target="//@children.5/@sourceConnections.0" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="75,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="xwiki.model/ExternalLink@externalLinks+xwiki.model/Page@" source="//@children.2" target="//@children.5" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="externalLinks" location="0,76" id="xwiki.model/ExternalLink@externalLinks+xwiki.model/Page@|xwiki.model/ExternalLink#externalLinks" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.2/@sourceConnections.1/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - externalLinks" location="446,406" size="87,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="527,433" size="6,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="210,146" id="xwiki.model/ExternalLink@externalLinks+xwiki.model/Page@|xwiki.model/Page#"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.0" name="URI" location="320,-180" size="126,260" id="xwiki.model/URI" runTimeClassModel="getContent(),getId(),url,id,getUrl(),setUrl(Ljava.lang.String;),content,setContent(Ljava.lang.String;),setId(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="103,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="id" id="xwiki.model/URI#id"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="url" id="xwiki.model/URI#url"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="content" id="xwiki.model/URI#content"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="93,126">
+      <children xsi:type="editmodel:MethodEditModel" name="URI" id="xwiki.model/URI#URI(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getContent" id="xwiki.model/URI#getContent()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setContent" id="xwiki.model/URI#setContent(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getId" id="xwiki.model/URI#getId()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setId" id="xwiki.model/URI#setId(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUrl" id="xwiki.model/URI#getUrl()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setUrl" id="xwiki.model/URI#setUrl(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="xwiki.model/Page@pages+xwiki.model/Space@" source="//@children.3" target="//@children.1" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="125,215" id="xwiki.model/Page@pages+xwiki.model/Space@|xwiki.model/Space#" attachSource="true" roleLabel="//@children.3/@sourceConnections.0/@children.1/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" location="453,15" size="0,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="pages" location="0,22" id="xwiki.model/Page@pages+xwiki.model/Space@|xwiki.model/Page#pages" multiplicityLabel="//@children.3/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.3/@sourceConnections.0/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - pages" location="636,-168" size="47,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="677,-141" size="6,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.2 //@children.5/@sourceConnections.6" name="Attachment" location="730,400" size="151,530" id="xwiki.model/Attachment" runTimeClassModel="pageId,getFileName(),setCreator(Ljava.lang.String;),comment,setContentType(Ljava.lang.String;),setFileSize(Ljava.lang.String;),getContentType(),created,getComment(),setFileName(Ljava.lang.String;),setComment(Ljava.lang.String;),creator,Attachment(Ljava.util.Hashtable;),getFileSize(),getPageId(),setCreated(Ljava.util.Date;),setPageId(Ljava.lang.String;),fileName,getTitle(),contentType,setTitle(Ljava.lang.String;),getCreated(),getCreator(),title,fileSize">
+    <children xsi:type="editmodel:CompartmentEditModel" size="128,144">
+      <children xsi:type="editmodel:AttributeEditModel" name="contentType" id="xwiki.model/Attachment#contentType"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fileName" id="xwiki.model/Attachment#fileName"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="created" id="xwiki.model/Attachment#created"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="creator" id="xwiki.model/Attachment#creator"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="title" id="xwiki.model/Attachment#title"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="comment" id="xwiki.model/Attachment#comment"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fileSize" id="xwiki.model/Attachment#fileSize"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pageId" id="xwiki.model/Attachment#pageId"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="118,306">
+      <children xsi:type="editmodel:MethodEditModel" name="getContentType" id="xwiki.model/Attachment#getContentType()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFileName" id="xwiki.model/Attachment#getFileName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setContentType" id="xwiki.model/Attachment#setContentType(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFileName" id="xwiki.model/Attachment#setFileName(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCreated" id="xwiki.model/Attachment#setCreated(Ljava.util.Date;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFileSize" id="xwiki.model/Attachment#getFileSize()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPageId" id="xwiki.model/Attachment#setPageId(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCreated" id="xwiki.model/Attachment#getCreated()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTitle" id="xwiki.model/Attachment#getTitle()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setComment" id="xwiki.model/Attachment#setComment(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCreator" id="xwiki.model/Attachment#setCreator(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTitle" id="xwiki.model/Attachment#setTitle(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPageId" id="xwiki.model/Attachment#getPageId()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Attachment" id="xwiki.model/Attachment#Attachment(Ljava.util.Hashtable;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getComment" id="xwiki.model/Attachment#getComment()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFileSize" id="xwiki.model/Attachment#setFileSize(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCreator" id="xwiki.model/Attachment#getCreator()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="xwiki.model/URI&lt;-xwiki.model/Attachment" source="//@children.4" target="//@children.5/@sourceConnections.0" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="75,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.1 //@children.5/@sourceConnections.3 //@children.1/@sourceConnections.0" name="Page" location="60,280" size="210,860" id="xwiki.model/Page" runTimeClassModel="homePage,setContentStatus(Ljava.lang.String;),getCurrent(),getCreated(),getHomePage(),setCreator(Ljava.lang.String;),setTitle(Ljava.lang.String;),setAtomos(Ljava.lang.String;),vetor,getModifier(),getInternalLinks(),creator,locks,current,setVersion(Ljava.util.ArrayList;),getVersions(),setExternalLinks(Ljava.util.ArrayList;),setLocks(Ljava.lang.Integer;),getExternalLinks(),setAttachments(Ljava.util.ArrayList;),setCurrent(Ljava.lang.String;),getContentStatus(),setVersions(Ljava.util.ArrayList;),setModifier(Ljava.lang.String;),modified,getCreator(),title,getAttachments(),contentStatus,Page(Ljava.util.Hashtable;),getTitle(),setVersion(Ljava.lang.Integer;),modifier,created,version,setHomePage(Ljava.lang.String;),setCreated(Ljava.util.Date;),getModified(),setModified(Ljava.util.Date;),setInternalLinks(Ljava.util.ArrayList;),getVetor(),getAtomos(),getLocks()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="187,198">
+      <children xsi:type="editmodel:AttributeEditModel" name="contentStatus" id="xwiki.model/Page#contentStatus"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="created" id="xwiki.model/Page#created"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="creator" id="xwiki.model/Page#creator"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="current" id="xwiki.model/Page#current"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="homePage" id="xwiki.model/Page#homePage"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="locks" id="xwiki.model/Page#locks"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="modified" id="xwiki.model/Page#modified"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="modifier" id="xwiki.model/Page#modifier"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="title" id="xwiki.model/Page#title"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="version" id="xwiki.model/Version@version+xwiki.model/Page@page|xwiki.model/Version#version"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="vetor" id="xwiki.model/Page#vetor"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="130,612">
+      <children xsi:type="editmodel:MethodEditModel" name="Page" id="xwiki.model/Page#Page(Ljava.util.Hashtable;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAttachments" id="xwiki.model/Page#getAttachments()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getContentStatus" id="xwiki.model/Page#getContentStatus()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCreated" id="xwiki.model/Page#getCreated()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCreator" id="xwiki.model/Page#getCreator()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCurrent" id="xwiki.model/Page#getCurrent()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getExternalLinks" id="xwiki.model/Page#getExternalLinks()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getHomePage" id="xwiki.model/Page#getHomePage()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInternalLinks" id="xwiki.model/Page#getInternalLinks()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLocks" id="xwiki.model/Page#getLocks()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getModified" id="xwiki.model/Page#getModified()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getModifier" id="xwiki.model/Page#getModifier()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTitle" id="xwiki.model/Page#getTitle()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getVersions" id="xwiki.model/Page#getVersions()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setExternalLinks" id="xwiki.model/Page#setExternalLinks(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setContentStatus" id="xwiki.model/Page#setContentStatus(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCreator" id="xwiki.model/Page#setCreator(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCurrent" id="xwiki.model/Page#setCurrent(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setVetor" id="xwiki.model/Page#setVetor(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setHomePage" id="xwiki.model/Page#setHomePage(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAttachments" id="xwiki.model/Page#setAttachments(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setLocks" id="xwiki.model/Page#setLocks(Ljava.lang.Integer;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setModified" id="xwiki.model/Page#setModified(Ljava.util.Date;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setModifier" id="xwiki.model/Page#setModifier(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTitle" id="xwiki.model/Page#setTitle(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setVersions" id="xwiki.model/Page#setVersions(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAtomos" id="xwiki.model/Page#getAtomos()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getVetor" id="xwiki.model/Page#getVetor()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setVersion" id="xwiki.model/Page#setVersion(Ljava.lang.Integer;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAtomos" id="xwiki.model/Page#setAtomos(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.4/@sourceConnections.0 //@children.2/@sourceConnections.0" autoLocated="true" id="xwiki.model/URI&lt;-xwiki.model/Page" source="//@children.5" target="//@children.3" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="105,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="62,258" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="xwiki.model/Page->xwiki.model/ExternalLink" source="//@children.5" target="//@children.2" targetEnd="//@children.5/@sourceConnections.1/@children.2" label="//@children.5/@sourceConnections.1/@children.0" sourceEnd="//@children.5/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="51,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="210,58" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,87"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="xwiki.model/Attachment@attachments+xwiki.model/Page@" source="//@children.5" target="//@children.4" targetEnd="//@children.5/@sourceConnections.2/@children.2" label="//@children.5/@sourceConnections.2/@children.0" sourceEnd="//@children.5/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="210,384" id="xwiki.model/Attachment@attachments+xwiki.model/Page@|xwiki.model/Page#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="attachments" location="0,264" id="xwiki.model/Attachment@attachments+xwiki.model/Page@|xwiki.model/Attachment#attachments" multiplicityLabel="//@children.5/@sourceConnections.2/@children.2/@children.1" roleLabel="//@children.5/@sourceConnections.2/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - attachments" location="640,644" size="83,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="717,671" size="6,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="xwiki.model/Page@internalLinks+xwiki.model/Page@" source="//@children.5" target="//@children.5" targetEnd="//@children.5/@sourceConnections.3/@children.2" label="//@children.5/@sourceConnections.3/@children.0" sourceEnd="//@children.5/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="internalLinks" location="0,23" id="xwiki.model/Page@internalLinks+xwiki.model/Page@|xwiki.model/Page#internalLinks" anchorKind="FixedAtEdge" attachSource="true" multiplicityLabel="//@children.5/@sourceConnections.3/@children.1/@children.1" roleLabel="//@children.5/@sourceConnections.3/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - internalLinks" location="-31,310" size="84,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="47,283" size="6,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,0" id="xwiki.model/Page@internalLinks+xwiki.model/Page@|xwiki.model/Page#" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" name="have" id="xwiki.model/Version@version+xwiki.model/Page@page" source="//@children.5" target="//@children.0" targetEnd="//@children.5/@sourceConnections.4/@children.2" label="//@children.5/@sourceConnections.4/@children.0" sourceEnd="//@children.5/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="have" size="27,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="page" location="210,107" id="xwiki.model/Version@version+xwiki.model/Page@page|xwiki.model/Page#page" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="version" location="0,212" id="xwiki.model/Version@version+xwiki.model/Page@page|xwiki.model/Version#version" multiplicityLabel="//@children.5/@sourceConnections.4/@children.2/@children.1" roleLabel="//@children.5/@sourceConnections.4/@children.2/@children.0" navigable="true" orderingKind="1">
+        <children xsi:type="editmodel:LabelEditModel" name=" - version" location="299,929" size="54,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="347,902" size="6,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="xwiki.model/Page->xwiki.model/Version" source="//@children.5" target="//@children.0" targetEnd="//@children.5/@sourceConnections.5/@children.2" label="//@children.5/@sourceConnections.5/@children.0" sourceEnd="//@children.5/@sourceConnections.5/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="51,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="210,587" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,157"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="xwiki.model/Page->xwiki.model/Attachment" source="//@children.5" target="//@children.4" targetEnd="//@children.5/@sourceConnections.6/@children.2" label="//@children.5/@sourceConnections.6/@children.0" sourceEnd="//@children.5/@sourceConnections.6/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="51,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="210,91" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="9,294"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=7" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
