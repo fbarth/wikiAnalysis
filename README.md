@@ -19,9 +19,9 @@ Este projeto foi implementado utilizando a linguagem de programação Java. Ao t
 Licença
 -------
 
-A licença de todos os projetos citados acima é [http://www.gnu.org/licenses/gpl.html](GPL). 
+A licença de todos os projetos citados acima é [GPL](http://www.gnu.org/licenses/gpl.html). 
 
 Contato e informações
 ---------------------
 
-Mais informações sobre este projeto ou outros podem ser obtidas [http://fbarth.github.io](aqui) ou enviando um e-mail para fabricio dot barth at gmail dot com. Além disso, [http://fbarth.github.io/docs/bar2010.pdf](este artigo), publicado no VII Simpósio Brasileiro de Sistemas Colaborativos, descreve os algoritmos utilizados para a identificação de grupos em Wikis.  
+Mais informações sobre este projeto ou outros podem ser obtidas [aqui](http://fbarth.github.io) ou enviando um e-mail para fabricio dot barth at gmail dot com. Além disso, [este artigo](http://fbarth.github.io/docs/bar2010.pdf), publicado no VII Simpósio Brasileiro de Sistemas Colaborativos, descreve os algoritmos utilizados para a identificação de grupos em Wikis.  
