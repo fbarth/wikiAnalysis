@@ -12,16 +12,16 @@ Este projeto foi implementado utilizando a linguagem de programação Java. Ao t
 
 * [BrazilianStemmer](BrazilianStemmer): é um projeto que implementa um stemmer para textos em português do Brasil.
 
-* [EntityDescription](EntityDescription): é um projeto que implementa um descritor para entidades recuperadas a partir de consultas feitas no Google utilizando uma API antiga disponibilizada pelo mesmo. Este projeto é dependente do projeto [https://trac.fbarth.net.br/wikiAnalysis/browser/Frequency Frequency].
+* [EntityDescription](EntityDescription): é um projeto que implementa um descritor para entidades recuperadas a partir de consultas feitas no Google utilizando uma API antiga disponibilizada pelo mesmo. Este projeto é dependente do projeto [Frequency](Frequency).
 
 * [Frequency](Frequency): é um projeto que implementa algumas medidas para contagem de frequência de palavras em textos, por exemplo, TF-IDF.
 
 Licença
 -------
 
-A licença de todos os projetos citados acima é [http://www.gnu.org/licenses/gpl.html GPL]. 
+A licença de todos os projetos citados acima é [http://www.gnu.org/licenses/gpl.html](GPL). 
 
 Contato e informações
 ---------------------
 
-Mais informações sobre este projeto ou outros podem ser obtidas [http://fbarth.net.br aqui] ou enviando um e-mail para fabricio dot barth at gmail dot com. Além disso, [http://fbarth.net.br/docs/bar2010.pdf este artigo], publicado no VII Simpósio Brasileiro de Sistemas Colaborativos, descreve os algoritmos utilizados para a identificação de grupos em Wikis.  
+Mais informações sobre este projeto ou outros podem ser obtidas [http://fbarth.github.io](aqui) ou enviando um e-mail para fabricio dot barth at gmail dot com. Além disso, [http://fbarth.github.io/docs/bar2010.pdf](este artigo), publicado no VII Simpósio Brasileiro de Sistemas Colaborativos, descreve os algoritmos utilizados para a identificação de grupos em Wikis.  
